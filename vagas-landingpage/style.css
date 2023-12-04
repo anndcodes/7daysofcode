@@ -57,3 +57,14 @@ nav {
   font-weight: 500;
   color: var(--logo-color);
 }
+
+.links ul {
+  gap: 3.2rem;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
