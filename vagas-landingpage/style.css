@@ -68,3 +68,24 @@ nav {
   font-size: 1.6rem;
   font-weight: 500;
 }
+
+
+.buttons {
+  gap: 1.2rem;
+}
+
+button {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1rem 1.8rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text-color);
+}
+
+.signup {
+  background: var(--primary-color);
+  color: #fff;
+}
