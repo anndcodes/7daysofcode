@@ -217,6 +217,7 @@ header p {
   margin: 9.6rem 11.2rem;
   padding: 6.4rem;
   background: var(--secondary-color);
+  border-radius: 16px;
 }
 
 .testimony-section p {
