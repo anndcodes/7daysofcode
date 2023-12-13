@@ -205,3 +205,43 @@ header p {
   font-weight: 500;
   color: var(--heading-color);
 }
+
+/* testimony section */
+.testimony-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 9.6rem 11.2rem;
+  padding: 6.4rem;
+  background: var(--secondary-color);
+}
+
+.testimony-section p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--primary-color);
+  padding-bottom: 1.6rem;
+}
+
+.testimony-section .testimony {
+  font-size: 3.6rem;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.72px;
+  padding-bottom: 3.2rem;
+  max-width: 70%;
+  text-align: center;
+}
+
+.testimony-section .testimony-owner {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--heading-color);
+  padding-top: 1.6rem;
+}
+
+.testimony-section .testimony-job {
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
