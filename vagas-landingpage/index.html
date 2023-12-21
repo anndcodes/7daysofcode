@@ -16,8 +16,13 @@
       <img src="assets/logo.svg" alt="OptimusTech logo">
       <p>OptimusTech</p>
     </div>
+    <div class="wrapper">
+      <div class="sideMenu">
+        <img src="assets/menu-icon.svg" alt="hamburguer menu icon">
+      </div>
+    </div>
     <div class="links">
-      <ul>
+      <ul class="menu-links">
         <li><a href="#">Home</a></li>
         <li><a href="#">Produtos</a></li>
         <li><a href="#">Recursos</a></li>
@@ -130,6 +135,18 @@
     </form>
     <span>© 2022 OptimusTech. Todos os direitos reservados.</span>
   </footer>
+
+  <script>
+    const buttons = document.querySelector(".buttons");
+    const menu = document.querySelector(".menu-links");
+    const menuIcon = document.querySelector(".sideMenu img");
+
+    menuIcon.addEventListener("click", function() {
+      menu.classList.toggle("active");
+      buttons.classList.toggle("active")
+    })
+
+  </script>
 </body>
 
 </html>
