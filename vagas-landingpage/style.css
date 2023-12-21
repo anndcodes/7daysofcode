@@ -311,15 +311,14 @@ footer span {
 
 .links a:hover {
     color: var(--primary-color)
-  }
+}
 
 
 /* ======== responsiveness ======== */
 /* for medium screens */
 @media screen and (max-width: 979px) {
-  
-  /* navbar */
 
+  /* navbar */
   nav {
     background: var(--footer-bg);
     width: 100%;
@@ -376,7 +375,6 @@ footer span {
   }
 
   /* header */
-
   header {
     margin-top: 15rem;
   }
@@ -391,7 +389,6 @@ footer span {
   }
 
   /* metrics section */
-
   .metrics-container {
     margin-bottom: 2rem;
   }
@@ -414,7 +411,6 @@ footer span {
   }
 
   /* looking for talents section */
-
   .looking-for-talents h2 {
     font-size: 2.5rem;
   }
@@ -429,7 +425,6 @@ footer span {
   }
 
   /* testimony section */
-
   .testimony-section {
     text-align: center;
     padding-inline: 3rem;
@@ -447,5 +442,68 @@ footer span {
 
   footer p {
     font-size: 1.6rem;
+  }
+}
+
+/* for small screens */
+@media screen and (max-width: 481px) {
+
+  /* same values */
+  header,
+  .metrics-container,
+  .area,
+  .testimony-section {
+    margin-inline: 3rem;
+  }
+
+  header p,
+  .area {
+    max-width: 100%;
+  }
+
+  /* header */
+  header p {
+    font-size: 1.7rem;
+  }
+
+  /* looking for talents section */
+  .looking-for-talents {
+    padding-inline: 3rem;
+  }
+
+  .looking-for-talents h2 {
+    font-size: 2.3rem;
+  }
+  
+  .looking-for-talents p {
+    font-size: 1.6rem;
+  }
+  
+  /* testimony section */
+  .testimony-section {
+    padding: 3.5rem;
+  }
+
+  .testimony-section .testimony {
+    font-size: 2.1rem;
+  }
+
+  /* footer section */
+  footer {
+    padding-inline: 3rem;
+  }
+
+  footer form {
+    display: block;
+  }
+
+  footer form input {
+    width: 260px;
+    margin-block: 1rem;
+    margin-right: 0;
+  }
+
+  footer span {
+    font-size: 1.4rem;
   }
 }
